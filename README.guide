@@ -1,0 +1,44 @@
+@DATABASE
+@TOC TOC
+
+@NODE MAIN "Md2Guide"
+@{b}@{u}Md2Guide@{uu}@{ub}
+
+Version 0.1
+Written by Robin Southern https://github.com/betajaen
+
+@{b}About@{ub}
+
+This is a simple program that converts a directory of markdown files (.md) to an AmigaGuide file.
+
+@{b}Usage@{ub}
+
+Amiga2Markdown requires .NET Core 3.1 runtimes, so runs on Windows, Linux and MacOS.
+It is launched through the console
+
+
+      Md2Guide.exe --input inputpath --output Documentation.guide
+  
+  
+  
+
+
+
+@{b}Supported Features@{ub}
+
+*  Headings
+*  Paragraphs
+*  AmigaGuide links - Links are provided via @{FG Shine}[Title](guide://name)@{FG Text}
+*  Bold and Italics
+*  Lists
+*  Code Blocks (with limited syntax highlighting)
+*  A table of contents node is generated automatically
+@ENDNODE
+
+@NODE TOC "Table of Contents"
+@{b}@{u}Table of Contents@{uu}@{ub}
+
+@{b}M@{ub}
+
+  @{"Md2Guide" LINK MAIN}
+@ENDNODE

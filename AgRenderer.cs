@@ -107,7 +107,7 @@ namespace Md2Guide
             {
                 if (li.Url.StartsWith("guide://"))
                 {
-                  string nodeName = li.Url.Substring(8).Trim().ToLower();
+                  string nodeName = li.Url.Substring(8).Trim().ToUpper();
 
                   StringBuilder sb = new StringBuilder();
 

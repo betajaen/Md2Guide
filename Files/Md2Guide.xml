@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Md2Guide</name>
+    </assembly>
+    <members>
+        <member name="M:Md2Guide.Program.Main(System.IO.DirectoryInfo,System.IO.FileInfo,System.String)">
+            <summary>
+            Converts all markdown files (.md) to an AmigaGuide
+            </summary>
+            
+            <param name="input">The path to the directory of markdown files that is to be converted.</param>
+            <param name="output">The name of the output from the conversion.</param>
+            <param name="main">The name of the main page</param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,115 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Md2Guide/0.1": {
+        "dependencies": {
+          "Markdig": "0.20.0",
+          "System.CommandLine": "2.0.0-beta1.20214.1",
+          "System.CommandLine.DragonFruit": "0.3.0-alpha.20214.1"
+        },
+        "runtime": {
+          "Md2Guide.dll": {}
+        }
+      },
+      "Markdig/0.20.0": {
+        "runtime": {
+          "lib/netcoreapp3.1/Markdig.dll": {
+            "assemblyVersion": "0.20.0.0",
+            "fileVersion": "0.20.0.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.4.1": {},
+      "System.CommandLine/2.0.0-beta1.20214.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.4.1",
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.CommandLine.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.20.21401"
+          }
+        }
+      },
+      "System.CommandLine.DragonFruit/0.3.0-alpha.20214.1": {
+        "dependencies": {
+          "System.CommandLine": "2.0.0-beta1.20214.1",
+          "System.CommandLine.Rendering": "0.3.0-alpha.20214.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.CommandLine.DragonFruit.dll": {
+            "assemblyVersion": "0.3.0.0",
+            "fileVersion": "0.300.20.21401"
+          }
+        }
+      },
+      "System.CommandLine.Rendering/0.3.0-alpha.20214.1": {
+        "dependencies": {
+          "System.CommandLine": "2.0.0-beta1.20214.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.CommandLine.Rendering.dll": {
+            "assemblyVersion": "0.3.0.0",
+            "fileVersion": "0.300.20.21401"
+          }
+        }
+      },
+      "System.Memory/4.5.3": {}
+    }
+  },
+  "libraries": {
+    "Md2Guide/0.1": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Markdig/0.20.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-49Kuof5GSRdTnXlDvZ/+ucABl9l5oPA/jpIkFK8Zcnc0NiETj+rf5f4xoNr52a4Hs1DlcJmrRHv4xvZHMxnDFQ==",
+      "path": "markdig/0.20.0",
+      "hashPath": "markdig.0.20.0.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A5hI3gk6WpcBI0QGZY6/d5CCaYUxJgi7iENn1uYEng+Olo8RfI5ReGVkjXjeu3VR3srLvVYREATXa2M0X7FYJA==",
+      "path": "microsoft.csharp/4.4.1",
+      "hashPath": "microsoft.csharp.4.4.1.nupkg.sha512"
+    },
+    "System.CommandLine/2.0.0-beta1.20214.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Hs/3ghb1nRw6Z3hiZO9mLH05JngTq15e1Dnf8g63KWv+EDBDNVx3G6zArorpSNae9wJjJ2JXJazaJn9q+HiCRg==",
+      "path": "system.commandline/2.0.0-beta1.20214.1",
+      "hashPath": "system.commandline.2.0.0-beta1.20214.1.nupkg.sha512"
+    },
+    "System.CommandLine.DragonFruit/0.3.0-alpha.20214.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3qb163cqpEsTFgvzvxTRWYOS7MXixnloDAzDVCQkQvBSr7HiJc0O1Mz7E10j8HNQ3gah6RLNShIIvz6tZ8Nexg==",
+      "path": "system.commandline.dragonfruit/0.3.0-alpha.20214.1",
+      "hashPath": "system.commandline.dragonfruit.0.3.0-alpha.20214.1.nupkg.sha512"
+    },
+    "System.CommandLine.Rendering/0.3.0-alpha.20214.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fan5eLvnMydO1f0K7ZmZPSrhCSwcEuEFs4B6PZdCvzN4gjSlHKQGj0IJ9rBkPZgkpGZcD3UsaLrEFH9fxp2Cfg==",
+      "path": "system.commandline.rendering/0.3.0-alpha.20214.1",
+      "hashPath": "system.commandline.rendering.0.3.0-alpha.20214.1.nupkg.sha512"
+    },
+    "System.Memory/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "path": "system.memory/4.5.3",
+      "hashPath": "system.memory.4.5.3.nupkg.sha512"
+    }
+  }
+}

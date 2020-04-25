@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Md2Guide": {
+      "commandName": "Project",
+      "commandLineArgs": "--input C:\\Dev\\Md2Guide --output C:\\Dev\\Md2Guide\\README.guide --main README"
+    }
+  }
+}

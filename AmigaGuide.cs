@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Linq;
+using System.IO;
 
 namespace Md2Guide.AmigaGuide
 {
@@ -488,9 +489,12 @@ namespace Md2Guide.AmigaGuide
   {
     public Dictionary<string, Node> Nodes { get; private set; }
 
+
     public GuideWriter()
     {
       Nodes = new Dictionary<string, Node>();
+      GetNode("MAIN");
+      GetNode("TOC");
     }
 
     public Node GetNode(string name)
@@ -513,7 +517,7 @@ namespace Md2Guide.AmigaGuide
       return node;
     }
 
-    public void Save(params string[] path)
+    public void Save(FileInfo dest)
     {
       StringBuilder sb = new StringBuilder();
 
@@ -544,10 +548,11 @@ namespace Md2Guide.AmigaGuide
         System.Text.Encoding.ASCII,
         System.Text.Encoding.Default.GetBytes(sb.ToString()));
 
-      foreach(var p in path)
+      using (var fs = dest.OpenWrite())
       {
-        System.IO.File.WriteAllBytes(p, ascii);
+        fs.Write(ascii);
       }
+
     }
 
   }
